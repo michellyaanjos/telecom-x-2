@@ -86,7 +86,7 @@ Este projeto tem como objetivo desenvolver modelos de Machine Learning capazes d
 ## 🤖 Modelagem e Justificativas
 Foram implementados os modelos Random Forest e Regressão Logística.
 
-* **Regressão Logística (com pesos balanceados):** Escolhida como modelo principal para o negócio devido à sua alta Sensibilidade (Recall). É mais importante para a Telecom X identificar quase todos os clientes em risco de saída, mesmo que alguns sejam "falsos positivos".
+* **Regressão Logística (com pesos balanceados):** Escolhida como modelo principal para o negócio devido à sua alta Sensibilidade (Recall).
 
 ## 📊 Insights da EDA
 
