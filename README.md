@@ -67,6 +67,37 @@ Este projeto tem como objetivo desenvolver modelos de Machine Learning capazes d
 
   * Numpy
 
+## 🛠️ Preparação dos Dados
+
+### 1. Classificação de Variáveis:
+
+  * **Numéricas:** tenure (meses de fidelidade), MonthlyCharges e TotalCharges.
+
+  * **Categóricas:** Gender, Partner, Dependents, InternetService, Contract, entre outras.
+
+### 2. Codificação e Normalização:
+
+  * Uso de Label Encoding e One-Hot Encoding para converter variáveis textuais em formatos numéricos processáveis pelos modelos.
+
+  * Padronização de escalas para evitar que variáveis com valores altos (como TotalCharges) dominassem o modelo indevidamente.
+
+### 3. Divisão de Dados:
+
+  * Separação em 70% para treino e 30% para teste, garantindo que o modelo seja avaliado em dados que nunca viu anteriormente.
+
+## 🤖 Modelagem e Justificativas
+Foram implementados os modelos Random Forest e Regressão Logística.
+
+* **Regressão Logística (com pesos balanceados):** Escolhida como modelo principal para o negócio devido à sua alta Sensibilidade (Recall). É mais importante para a Telecom X identificar quase todos os clientes em risco de saída, mesmo que alguns sejam "falsos positivos".
+
+## 📊 Insights da EDA
+
+* **Contratos Mensais:** Representam o maior risco de evasão.
+
+* **Tecnologia de Fibra Óptica:** Apresenta taxa de churn superior ao DSL, indicando possível problema de satisfação ou preço.
+
+* **Falta de Suporte Técnico:** Clientes sem serviços de segurança online tendem a cancelar mais rápido.
+
 
 
 ## 📁 Estrutura do Projeto
