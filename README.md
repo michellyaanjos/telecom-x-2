@@ -67,35 +67,6 @@ Este projeto tem como objetivo desenvolver modelos de Machine Learning capazes d
 
   * Numpy
 
-## 🛠️ Preparação dos Dados
-
-### 1. Classificação de Variáveis:
-
-  * **Numéricas:** `Tenure` (meses de contrato), `ChargesMonthly`, `ChargesTotal` e `ChargesDaily`.
-
-  * **Categóricas:** `Churn`, `Gender`, `SeniorCitizen`, `Partner`, `Dependents`, `PhoneService`, `PaperlessBilling`, `OnlineSecurity`, `OnlineBackup`, `DeviceProtection`, `TechSupport`, `StreamingTV`, `StreamingMovies`, `InternetService`, `Contract`, `PaymentMethod` e `MultipleLines`
-
-### 2. Codificação e Normalização:
-
-  * Uso de One-Hot Encoding para converter variáveis textuais em formatos numéricos processáveis pelos modelos.
-
-### 3. Divisão de Dados:
-
-  * Separação em 80% para treino e 20% para teste, garantindo que o modelo seja avaliado em dados que nunca viu anteriormente.
-
-## 🤖 Modelagem e Justificativas
-Foram implementados os modelos Random Forest e Regressão Logística.
-
-* **Regressão Logística (com pesos balanceados):** Escolhida como modelo principal para o negócio devido à sua alta Sensibilidade (Recall).
-
-## 📊 Insights da EDA
-
-* **Contratos Mensais:** Representam o maior risco de evasão.
-
-* **Tecnologia de Fibra Óptica:** Apresenta taxa de churn superior ao DSL, indicando possível problema de satisfação ou preço.
-
-* **Falta de Suporte Técnico:** Clientes sem serviços de segurança online tendem a cancelar mais rápido.
-
 
 
 ## 📁 Estrutura do Projeto
