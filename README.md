@@ -79,7 +79,7 @@ telecom-x/
 
 ├── 📁 data/                    # Dados utilizados no projeto
 
-│   └── 📄 dados_tratados.csv   # Arquivo de dados brutos (JSON)
+│   └── 📄 dados_tratados.csv   # Arquivo de dados
 
 ├── 📄 README.md                # Documentação e descrição do projeto
 
