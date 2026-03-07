@@ -157,7 +157,7 @@ jupyter notebook Telecom_x2.ipynb
 
 ```
 
-https://github.com/michellyaanjos/telecom-x2.git
+https://github.com/michellyaanjos/telecom-x-2.git
 
 ```
 
