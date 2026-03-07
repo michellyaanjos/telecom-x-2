@@ -71,9 +71,9 @@ Este projeto tem como objetivo desenvolver modelos de Machine Learning capazes d
 
 ### 1. Classificação de Variáveis:
 
-  * **Numéricas:** Tenure (meses de fidelidade), ChargesMonthly e ChargesTotal.
+  * **Numéricas:** `Tenure` (meses de contrato), `ChargesMonthly`, `ChargesTotal` e `ChargesDaily`.
 
-  * **Categóricas:** Gender, Partner, Dependents, InternetService, Contract, entre outras.
+  * **Categóricas:** `Churn`, `Gender`, `SeniorCitizen`, `Partner`, `Dependents`, `PhoneService`, `PaperlessBilling`, `OnlineSecurity`, `OnlineBackup`, `DeviceProtection`, `TechSupport`, `StreamingTV`, `StreamingMovies`, `InternetService`, `Contract`, `PaymentMethod` e `MultipleLines`
 
 ### 2. Codificação e Normalização:
 
