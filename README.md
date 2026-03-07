@@ -71,19 +71,17 @@ Este projeto tem como objetivo desenvolver modelos de Machine Learning capazes d
 
 ### 1. Classificação de Variáveis:
 
-  * **Numéricas:** tenure (meses de fidelidade), MonthlyCharges e TotalCharges.
+  * **Numéricas:** Tenure (meses de fidelidade), ChargesMonthly e ChargesTotal.
 
   * **Categóricas:** Gender, Partner, Dependents, InternetService, Contract, entre outras.
 
 ### 2. Codificação e Normalização:
 
-  * Uso de Label Encoding e One-Hot Encoding para converter variáveis textuais em formatos numéricos processáveis pelos modelos.
-
-  * Padronização de escalas para evitar que variáveis com valores altos (como TotalCharges) dominassem o modelo indevidamente.
+  * Uso de One-Hot Encoding para converter variáveis textuais em formatos numéricos processáveis pelos modelos.
 
 ### 3. Divisão de Dados:
 
-  * Separação em 70% para treino e 30% para teste, garantindo que o modelo seja avaliado em dados que nunca viu anteriormente.
+  * Separação em 80% para treino e 20% para teste, garantindo que o modelo seja avaliado em dados que nunca viu anteriormente.
 
 ## 🤖 Modelagem e Justificativas
 Foram implementados os modelos Random Forest e Regressão Logística.
