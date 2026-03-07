@@ -143,11 +143,11 @@ jupyter notebook Telecom_x2.ipynb
 
 
 
-2. Clique em \*\*File\*\* → \*\*Open notebook\*\*
+2. Clique em **File** → **Open notebook**
 
 
 
-3. Vá na aba \*\*GitHub\*\*
+3. Vá na aba **GitHub**
 
 
 
@@ -163,7 +163,7 @@ https://github.com/michellyaanjos/telecom-x2.git
 
 
 
-5. Selecione o arquivo .ipynb desejado e clique em \*\*Open\*\*.
+5. Selecione o arquivo .ipynb desejado e clique em **Open**.
 
 
 
